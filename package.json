@@ -1,0 +1,30 @@
+{
+  "name": "husky-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepare": "husky install",
+    "lint": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-zozol/husky-demo.git"
+  },
+  "keywords": [
+    "husky",
+    "demo"
+  ],
+  "author": "Nicolas Zozol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-zozol/husky-demo/issues"
+  },
+  "homepage": "https://github.com/nicolas-zozol/husky-demo#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3"
+  }
+}
